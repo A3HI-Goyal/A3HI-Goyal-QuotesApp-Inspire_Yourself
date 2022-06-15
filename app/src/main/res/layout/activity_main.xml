@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="img"
+        android:elevation="10dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/will" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/txtview_bg"
+            android:text="William Faulkner"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:text="Truth Quotes"
+            android:textColor="#03FF0D"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Never be afraid to raise your voice for honesty and truth and compassion against injustice and lying and greed. If people all over the world....would do this, it would change the earth."
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:background="#06F810"
+            android:drawableEnd="@drawable/ic_baseline_share_24"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/black"
+            android:drawingCacheQuality="auto"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="false"
+            android:text="Share"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnnext"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:background="#06F810"
+            android:backgroundTint="#FF0606"
+            android:text="next" />
+    </LinearLayout>
+
+</LinearLayout>

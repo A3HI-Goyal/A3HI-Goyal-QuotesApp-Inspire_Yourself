@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="img"
+        android:elevation="10dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/albert" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/txtview_bg"
+            android:text="Albert Eintein"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:text="Truth Quotes"
+            android:textColor="#03FF0D"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/quote21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Life is like riding a bicycle. To keep your balance, you must keep moving."
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/share21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:background="#06F810"
+            android:drawableEnd="@drawable/ic_baseline_share_24"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/black"
+            android:drawingCacheQuality="auto"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="false"
+            android:text="Share"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/quote22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Learn from yesterday, live for today, hope for tomorrow, The important thing is not to stop questioning."
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/share22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:background="#06F810"
+            android:drawableEnd="@drawable/ic_baseline_share_24"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/black"
+            android:drawingCacheQuality="auto"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="false"
+            android:text="Share"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <Button
+                android:id="@+id/prev"
+                android:layout_width="50dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:background="#06F810"
+                android:backgroundTint="#FF0606"
+                android:text="Prev"
+                android:textColor="#607D8B"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnnext1"
+                android:layout_width="130dp"
+                android:layout_height="48dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:background="#06F810"
+                android:backgroundTint="#FF0606"
+                android:text="next"
+                android:textColor="#607D8B"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
